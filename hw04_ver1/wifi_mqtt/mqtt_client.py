@@ -75,7 +75,7 @@ while num != 200: # will get num messages
         timestamp.append(timestamp[num - 1] + sampling_interval[num])
     if (timestamp[num] > 20):
         break
-    time.sleep(0.5)
+    time.sleep(0.6)
     num += 1
 
 #print(timestamp)

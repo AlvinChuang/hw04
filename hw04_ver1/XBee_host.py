@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # XBee setting
-serdev = '/dev/ttyUSB3'
+serdev = '/dev/ttyUSB0'
 s = serial.Serial(serdev, 9600)
 
 s.write("+++".encode())
